@@ -1,0 +1,7 @@
+nohup: ignoring input
+Server running on port 5000
+Executing (default): SELECT 1+1 AS result
+MySQL Connected
+Executing (default): SELECT `id`, `name`, `email`, `password`, `role`, `createdAt`, `updatedAt` FROM `Users` AS `User` WHERE `User`.`email` = 'john.doe@example.com' LIMIT 1;
+Executing (default): INSERT INTO `Users` (`id`,`name`,`email`,`password`,`role`,`createdAt`,`updatedAt`) VALUES (DEFAULT,?,?,?,?,?,?);
+Executing (default): SELECT `id`, `name`, `email`, `password`, `role`, `createdAt`, `updatedAt` FROM `Users` AS `User` WHERE `User`.`email` = 'john.doe@example.com' LIMIT 1;
